@@ -1,0 +1,32 @@
+modLoader="javafml"
+
+loaderVersion="[36,)"
+
+license="GNU General Public License v3.0"
+
+issueTrackerURL="https://github.com/Midius/JustAnotherPipe/issues"
+
+[[mods]]
+	modId="justanotherpipe"
+	version="${file.jarVersion}"
+	displayName="Just Another Pipe"
+	#updateJSONURL="https://change.me.example.invalid/updates.json"
+	displayURL="https://github.com/Midius/JustAnotherPipe"
+	logoFile="logo.png"
+	#credits="-"
+	authors="Midius"
+	description='''A simple Pipe mod that can transfer anything I program in, so probably nothing right now.'''
+
+[[dependencies.justanotherpipe]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.justanotherpipe]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,)"
+    ordering="NONE"
+    side="BOTH"
